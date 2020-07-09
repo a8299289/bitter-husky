@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>
+            <%= htmlWebpackPlugin.options.title %>
+        </title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+            })
+        </script>
+        <link rel="stylesheet" href="<%= BASE_URL %>static/index.<%= VUE_APP_INDEX_CSS_HASH %>.css" />
+		<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=8e0c1e8d3674eaf10df7ccbc86db3e18"></script> 
+		<script src="http://webapi.amap.com/ui/1.0/main.js"></script>
+		<!-- 微信支付 -->
+		<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+		<script type="text/javascript" src="https://res2.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+			
+		
+    </head>
+    <body>
+        <noscript>
+            <strong>Please enable JavaScript to continue.</strong>
+        </noscript>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+    </body>
+</html>

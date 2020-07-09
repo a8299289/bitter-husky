@@ -1,0 +1,254 @@
+/* 颜色变量 */
+
+/* 行为相关颜色 */
+$uni-color-primary: #007aff;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+
+/* 文字基本颜色 */
+$uni-text-color:#333;//基本色
+$uni-text-color-inverse:#fff;//反色
+$uni-text-color-grey:#999;//辅助灰色，如加载更多的提示信息
+$uni-text-color-placeholder: #808080;
+$uni-text-color-disable:#c0c0c0;
+$uni-text-color-dominant:#EF3D22;//平台主色调
+
+/* 背景颜色 */
+$uni-bg-color:#ffffff;
+$uni-bg-color-grey:#f5f5f5;
+$uni-bg-color-hover:#f1f1f1;//点击状态颜色
+$uni-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
+$uni-bg-color-hard:#EF3D22;//平台主背景色
+$uni-bg-color-hard1:#FE6835;//平台渐变色尾色
+
+
+/* 边框颜色 */
+$uni-border-color:#e5e5e5;
+
+
+
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$uni-font-size-mi:20rpx;
+$uni-font-size-sm:24rpx;
+$uni-font-size-base:28rpx;
+$uni-font-size-lg:32rpx;
+
+/* 图片尺寸 */
+$uni-img-size-sm:40rpx;
+$uni-img-size-base:52rpx;
+$uni-img-size-lg:80rpx;
+
+/* 边框圆角 */
+$uni-border-radius-sm: 4rpx;
+$uni-border-radius-base: 6rpx;
+$uni-border-radius-lg: 12rpx;
+$uni-border-radius-circle: 50%;
+
+/* 水平间距 */
+$uni-spacing-row-sm: 10px;
+$uni-spacing-row-base: 20rpx;
+$uni-spacing-row-lg: 30rpx;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: 8rpx;
+$uni-spacing-col-base: 16rpx;
+$uni-spacing-col-lg: 20rpx;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$uni-color-title: #2C405A; // 文章标题颜色
+$uni-font-size-title:40rpx;
+$uni-color-subtitle: #555555; // 二级标题颜色
+$uni-font-size-subtitle:36rpx;
+$uni-color-paragraph: #3F536E; // 文章段落颜色
+$uni-font-size-paragraph:30rpx;
+
+/* 字体颜色公用样式 */
+
+.text-color{ color: $uni-text-color;}
+.text-color-inverse{ color: $uni-text-color-inverse;}
+.text-color-grey{ color: $uni-text-color-grey;}
+.text-color-placeholder{ color: $uni-text-color-placeholder;}
+.text-color-disable{ color: $uni-text-color-disable;}
+.text-color-dominant{ color: $uni-text-color-dominant;}
+
+/* 背景色公用样式 */
+.bgfff{background: #FFFFFF !important;}
+.bg-color-grey{background: $uni-bg-color-grey !important;}
+.bg_linear{background: linear-gradient($uni-bg-color-hard, $uni-bg-color-hard1)!important}
+
+
+/* 宽度公用样式 */
+.w100{width:100%;}
+.w90{width:90%;}
+.w80{width:80%;}
+.w70{width:70%;}
+.w60{width:60%;}
+.w50{width:50%;}
+.w40{width:40%;}
+.w30{width:30%;}
+.w20{width:20%;}
+.w10{width:10%;}
+
+/* 字体粗细公用样式 */
+.font_bold{font-weight: bold;}
+
+/* 字体对齐公用样式 */
+.text-left{text-align: left}
+.text-center{text-align: center}
+.text-right{text-align: right}
+.text-decoration-line{text-decoration: line-through}
+.hide_other{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+/* flex风格布局公用样式 */
+.justify-flex-start{justify-content: flex-start}
+.justify-flex-end{justify-content: flex-end }
+.justify-space-between{justify-content: space-between}
+.justify-space-around{justify-content: space-around}
+.justify-center {justify-content: center }
+.flex{display: flex;}
+.center{align-items:center;}
+.end{align-items:flex-end;}
+.flex-wrap-line {flex-wrap: wrap}
+.flex-wrap-reverse {flex-wrap: wrap-reverse}
+.flex-direction-column-reverse {flex-direction: column-reverse}
+.flex-direction-column {flex-direction: column}
+.flex-direction-row-reverse {flex-direction: row-reverse}
+.flex1 {flex: 1;}
+
+
+/* 字体大小公用样式 */
+.font-mi{ font-size: $uni-font-size-mi;}
+.font-sm{ font-size: $uni-font-size-sm;}
+.font-base{ font-size: $uni-font-size-base;}
+.font-lg{ font-size: $uni-font-size-lg;}
+
+/* 偏移公用样式 */
+.mt-5{margin-top:5rpx;}
+.mt-10{margin-top:10rpx;}
+.mt-20{margin-top:20rpx;}
+.mt-30{margin-top:30rpx;}
+.mt-40{margin-top:40rpx;}
+.mt-50{margin-top:50rpx;}
+.mt-60{margin-top:60rpx;}
+.mt-70{margin-top:70rpx;}
+.mt-80{margin-top:80rpx;}
+.mt-90{margin-top:90rpx;}
+.mt-100{margin-top:100rpx;}
+
+.mr-5{margin-right:5rpx;}
+.mr-10{margin-right:10rpx;}
+.mr-20{margin-right:20rpx;}
+.mr-30{margin-right:30rpx;}
+.mr-40{margin-right:40rpx;}
+.mr-50{margin-right:50rpx;}
+.mr-60{margin-right:60rpx;}
+.mr-70{margin-right:70rpx;}
+.mr-80{margin-right:80rpx;}
+.mr-90{margin-right:90rpx;}
+.mr-100{margin-right:100rpx;}
+
+.mb-5{margin-bottom:5rpx;}
+.mb-10{margin-bottom:10rpx;}
+.mb-20{margin-bottom:20rpx;}
+.mb-30{margin-bottom:30rpx;}
+.mb-40{margin-bottom:40rpx;}
+.mb-50{margin-bottom:50rpx;}
+.mb-60{margin-bottom:60rpx;}
+.mb-70{margin-bottom:70rpx;}
+.mb-80{margin-bottom:80rpx;}
+.mb-90{margin-bottom:90rpx;}
+.mb-100{margin-bottom:100rpx;}
+
+.ml-5{margin-left:5rpx;}
+.ml-10{margin-left:10rpx;}
+.ml-20{margin-left:20rpx;}
+.ml-30{margin-left:30rpx;}
+.ml-40{margin-left:40rpx;}
+.ml-50{margin-left:50rpx;}
+.ml-60{margin-left:60rpx;}
+.ml-70{margin-left:70rpx;}
+.ml-80{margin-left:80rpx;}
+.ml-90{margin-left:90rpx;}
+.ml-100{margin-left:100rpx;}
+.ml-120{margin-left: 120rpx;}
+
+.pt-5{padding-top:5rpx;}
+.pt-10{padding-top:10rpx;}
+.pt-20{padding-top:20rpx;}
+.pt-30{padding-top:30rpx;}
+.pt-40{padding-top:40rpx;}
+.pt-50{padding-top:50rpx;} 
+.pt-60{padding-top:60rpx;}
+.pt-70{padding-top:70rpx;}
+.pt-80{padding-top:80rpx;}
+.pt-90{padding-top:90rpx;}
+.pt-100{padding-top:100rpx;}
+
+.pr-5{padding-right:5rpx;}
+.pr-10{padding-right:10rpx;}
+.pr-20{padding-right:20rpx;}
+.pr-30{padding-right:30rpx;}
+.pr-40{padding-right:40rpx;}
+.pr-50{padding-right:50rpx;}
+.pr-60{padding-right:60rpx;}
+.pr-70{padding-right:70rpx;}
+.pr-80{padding-right:80rpx;}
+.pr-90{padding-right:90rpx;}
+.pr-100{padding-right:100rpx;}
+
+.pb-5{padding-bottom:5rpx;}
+.pb-10{padding-bottom:10rpx;}
+.pb-20{padding-bottom:20rpx;}
+.pb-30{padding-bottom:30rpx;}
+.pb-40{padding-bottom:40rpx;}
+.pb-50{padding-bottom:50rpx;}
+.pb-60{padding-bottom:60rpx;}
+.pb-70{padding-bottom:70rpx;}
+.pb-80{padding-bottom:80rpx;}
+.pb-90{padding-bottom:90rpx;}
+.pb-100{padding-bottom:10rpx;}
+.pb-120{padding-bottom:120rpx;}
+
+.pl-5{padding-left:5rpx;}
+.pl-10{padding-left:10rpx;}
+.pl-20{padding-left:20rpx;}
+.pl-30{padding-left:30rpx;}
+.pl-40{padding-left:40rpx;}
+.pl-50{padding-left:50rpx;}
+.pl-60{padding-left:60rpx;}
+.pl-70{padding-left:70rpx;}
+.pl-80{padding-left:80rpx;}
+.pl-90{padding-left:90rpx;}
+.pl-100{padding-left:100rpx;}
+.pl-120{padding-left:120rpx;}
+
+
+/* 倒三角 */
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+/* 分界线 */
+.divider{
+    background-color: #e5e5e55e;
+    height: 1px;
+    width: 100%;
+	margin: 6rpx 0;
+}
+
+
+

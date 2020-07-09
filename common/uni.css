@@ -1,0 +1,184 @@
+
+/* 字体颜色公用样式 */
+.cf333{ color: #333333;}
+.cffff{ color: #FFFFFF;}
+.cf999{ color: #999999;}
+.cf808{ color: #808080;}
+.cfc0c{ color: #c0c0c0;}
+.cfef3{ color: #EF3D22;}
+
+/* 背景色公用样式 */
+.bgfff{background: #FFFFFF !important;}
+.bg_linear{background: linear-gradient(#EF3D22, #FE6835)!important}
+
+
+
+/* 宽度公用样式 */
+.w100{width:100%;}
+.w90{width:90%;}
+.w80{width:80%;}
+.w70{width:70%;}
+.w60{width:60%;}
+.w50{width:50%;}
+.w40{width:40%;}
+.w30{width:30%;}
+.w20{width:20%;}
+.w10{width:10%;}
+
+/* 字体粗细公用样式 */
+.font_bold{font-weight: bold;}
+
+/* 字体对齐公用样式 */
+.text-left{text-align: left}
+.text-center{text-align: center}
+.text-right{text-align: right}
+.text-decoration-line{text-decoration: line-through}
+.hide_other{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+/* flex风格布局公用样式 */
+.justify-flex-start{justify-content: flex-start}
+.justify-flex-end{justify-content: flex-end }
+.justify-space-between{justify-content: space-between}
+.justify-space-around{justify-content: space-around}
+.justify-center {justify-content: center }
+.flex{display: flex;}
+.center{align-items:center;}
+.end{align-items:flex-end;}
+.flex-wrap-line {flex-wrap: wrap}
+.flex-wrap-reverse {flex-wrap: wrap-reverse}
+.flex-direction-column-reverse {flex-direction: column-reverse}
+.flex-direction-column {flex-direction: column}
+.flex-direction-row-reverse {flex-direction: row-reverse}
+.flex1 {flex: 1;}
+
+
+/* 字体大小公用样式 */
+.f20{ font-size: 20rpx;}
+.f24{ font-size: 24rpx;}
+.f28{ font-size: 28rpx;}
+.f32{ font-size: 32rpx;}
+
+/* 偏移公用样式 */
+.mt-5{margin-top:5rpx;}
+.mt-10{margin-top:10rpx;}
+.mt-20{margin-top:20rpx;}
+.mt-30{margin-top:30rpx;}
+.mt-40{margin-top:40rpx;}
+.mt-50{margin-top:50rpx;}
+.mt-60{margin-top:60rpx;}
+.mt-70{margin-top:70rpx;}
+.mt-80{margin-top:80rpx;}
+.mt-90{margin-top:90rpx;}
+.mt-100{margin-top:100rpx;}
+
+.mr-5{margin-right:5rpx;}
+.mr-10{margin-right:10rpx;}
+.mr-20{margin-right:20rpx;}
+.mr-30{margin-right:30rpx;}
+.mr-40{margin-right:40rpx;}
+.mr-50{margin-right:50rpx;}
+.mr-60{margin-right:60rpx;}
+.mr-70{margin-right:70rpx;}
+.mr-80{margin-right:80rpx;}
+.mr-90{margin-right:90rpx;}
+.mr-100{margin-right:100rpx;}
+
+.mb-5{margin-bottom:5rpx;}
+.mb-10{margin-bottom:10rpx;}
+.mb-20{margin-bottom:20rpx;}
+.mb-30{margin-bottom:30rpx;}
+.mb-40{margin-bottom:40rpx;}
+.mb-50{margin-bottom:50rpx;}
+.mb-60{margin-bottom:60rpx;}
+.mb-70{margin-bottom:70rpx;}
+.mb-80{margin-bottom:80rpx;}
+.mb-90{margin-bottom:90rpx;}
+.mb-100{margin-bottom:100rpx;}
+
+.ml-5{margin-left:5rpx;}
+.ml-10{margin-left:10rpx;}
+.ml-20{margin-left:20rpx;}
+.ml-30{margin-left:30rpx;}
+.ml-40{margin-left:40rpx;}
+.ml-50{margin-left:50rpx;}
+.ml-60{margin-left:60rpx;}
+.ml-70{margin-left:70rpx;}
+.ml-80{margin-left:80rpx;}
+.ml-90{margin-left:90rpx;}
+.ml-100{margin-left:100rpx;}
+.ml-120{margin-left: 120rpx;}
+
+.pt-5{padding-top:5rpx;}
+.pt-10{padding-top:10rpx;}
+.pt-20{padding-top:20rpx;}
+.pt-30{padding-top:30rpx;}
+.pt-40{padding-top:40rpx;}
+.pt-50{padding-top:50rpx;} 
+.pt-60{padding-top:60rpx;}
+.pt-70{padding-top:70rpx;}
+.pt-80{padding-top:80rpx;}
+.pt-90{padding-top:90rpx;}
+.pt-100{padding-top:100rpx;}
+
+.pr-5{padding-right:5rpx;}
+.pr-10{padding-right:10rpx;}
+.pr-20{padding-right:20rpx;}
+.pr-30{padding-right:30rpx;}
+.pr-40{padding-right:40rpx;}
+.pr-50{padding-right:50rpx;}
+.pr-60{padding-right:60rpx;}
+.pr-70{padding-right:70rpx;}
+.pr-80{padding-right:80rpx;}
+.pr-90{padding-right:90rpx;}
+.pr-100{padding-right:100rpx;}
+
+.pb-5{padding-bottom:5rpx;}
+.pb-10{padding-bottom:10rpx;}
+.pb-20{padding-bottom:20rpx;}
+.pb-30{padding-bottom:30rpx;}
+.pb-40{padding-bottom:40rpx;}
+.pb-50{padding-bottom:50rpx;}
+.pb-60{padding-bottom:60rpx;}
+.pb-70{padding-bottom:70rpx;}
+.pb-80{padding-bottom:80rpx;}
+.pb-90{padding-bottom:90rpx;}
+.pb-100{padding-bottom:10rpx;}
+.pb-120{padding-bottom:120rpx;}
+
+.pl-5{padding-left:5rpx;}
+.pl-10{padding-left:10rpx;}
+.pl-20{padding-left:20rpx;}
+.pl-30{padding-left:30rpx;}
+.pl-40{padding-left:40rpx;}
+.pl-50{padding-left:50rpx;}
+.pl-60{padding-left:60rpx;}
+.pl-70{padding-left:70rpx;}
+.pl-80{padding-left:80rpx;}
+.pl-90{padding-left:90rpx;}
+.pl-100{padding-left:100rpx;}
+.pl-120{padding-left:120rpx;}
+
+
+/* 倒三角 */
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+/* 分界线 */
+.divider{
+    background-color: #e5e5e55e;
+    height: 1px;
+    width: 100%;
+	margin: 6rpx 0;
+}
+
+
+
